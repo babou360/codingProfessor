@@ -1,0 +1,26 @@
+.admin{
+    display: flex;
+    flex-direction: column;
+}
+.upload{
+    width: 1000px;
+}
+.blog{
+    width: 70%;
+}
+.image-blog{
+    width: 100px;
+    height: 100px;
+}
+.blogs{
+    margin-top: 15px;
+    width: 100%;
+    background-color: #f5e9e9;
+    margin: 10px;
+}
+
+.manage{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}

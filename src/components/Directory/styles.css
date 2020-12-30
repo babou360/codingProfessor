@@ -1,0 +1,243 @@
+.hero{
+  background: url('./../../assets/desk5.jpeg') center center/cover no-repeat;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 100%;
+  transition: transform .2s;
+}
+.hero-desc{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.hero:hover{
+  width: 100%;
+  transform: scale(.95);
+}
+.hero-content{
+margin-top: 50px;
+margin-bottom:50px;
+color: white;
+align-content: center;
+justify-content: center;
+}
+.hero-desc>p{
+  margin-top: 5px;
+  font-size: medium;
+  font-weight: 500;
+  /* color: white; */
+  box-shadow: black;
+  color: #7a7a7a;
+}
+.hero-desc>h1{
+  color: white;
+}
+.youtube>p,i{
+  color: white;
+}
+.youtube>p{
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+.engineer{
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+  color: white;
+  /* color: #242323; */
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.hero-logo{
+  margin-right: 25px;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.hero-logo>h6{
+  font-family: 'Audiowide', cursive;
+  color: white;
+  font-size: 70px;
+}
+.youtube{
+  background-color: #000000;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 130px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 5px;
+  transition: .2s;
+}
+.buttons>a{
+  /* color: black; */
+}
+.fa-mobile-alt{
+  color: #000000;
+}
+.fa-globe-europe{
+  color: #000000;
+}
+.fa-pencil-alt{
+  color: #000000;
+}
+.fa-search-location{
+  color: #000000;
+}
+.youtube:hover{
+  /* border: 1px solid grey;
+  color: black; */
+  transform: scale(.98);
+  /* background-color: #ffffff; */
+}
+/* .watch:hover{
+  color: black;
+  font-family: 'Space Grotesk', sans-serif;
+} */
+/* .fa-instagram:hover{
+  margin-left: 4px;
+  color: #000000;
+}
+.fa-play-circle:hover{
+  color: #000000;
+} */
+.buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+.about-container{
+  margin: 25px;
+}
+.about-me{
+  padding: 20px;
+  opacity: 0;
+}
+.about-me> h1{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+.about-me>p{
+  font-family: 'Space Grotesk', sans-serif;
+  /* color: #3a3a3a; */
+  line-height: 1.5;
+  line-height: 2;
+  margin-top: 20px;
+  justify-content: start;
+}
+.fa-mobile-alt{
+  margin-top: 15px;
+  align-self: center;
+}
+.service-item{
+  width: 33%;
+  margin-top: 40px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.service-item>h4{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+  justify-content: center;
+}
+.service-item>p{
+  font-family: 'Space Grotesk', sans-serif;
+  color: #3a3a3a;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+.service-container{
+  margin-top: 20px;
+  display: flex;
+  /* flex-wrap: wrap-reverse; */
+}
+/* .fa-mobile-alt{
+  color: grey;
+}
+.fa-laptop-code{
+  color: grey;
+}
+.fa-pencil-alt{
+  color: grey;
+} */
+
+@media screen and (max-width: 960px) {
+  .hero-desc>h1{
+      font-size: 30px;
+  }
+  .hero-desc>p{
+      font-size: 15px;
+  }
+  .hero-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .hero-logo{
+      width: 180px;
+      height: 180px;  
+  }
+  .hero{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .hero-desc{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;   
+  }
+  .service-container{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .buttons{
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+  }
+  .service-item{
+      width: 90%;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .youtube{
+      border: 1px solid black;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      width: 150px;
+      cursor: pointer;
+      margin-top: 7px;
+  }
+}
